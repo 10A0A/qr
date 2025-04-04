@@ -77,3 +77,27 @@ p {
     z-index: -1;
     pointer-events: none;
 }
+
+/* TikTok Container */
+.tiktok-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.tiktok-container h2 {
+    font-size: 2rem;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.tiktok-embed iframe {
+    margin-top: 20px;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00ffff;
+    transition: transform 0.3s ease;
+}
+
+.tiktok-embed iframe:hover {
+    transform: scale(1.05);
+}
